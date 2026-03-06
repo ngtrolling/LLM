@@ -1,0 +1,150 @@
+{"id": 1, "text": "The day before yesterday, Ram received another email from r e m y at outlook dot sg", "entities": [[15, 24, "DATE"], [26, 29, "PERSON"], [58, 83, "EMAIL"]]}
+{"id": 2, "text": "(um) my date of birth is (uh) second september nineteen ninety two", "entities": [[37, 46, "DATE"]]}
+{"id": 3, "text": "she handed over a crumpled piece of paper, ther is car plate number SC9100G", "entities": [[68, 75, "CAR_PLATE"]]}
+{"id": 4, "text": "#aglio olio# and (err) (uh) three three of the other one ya", "entities": [[1, 11, "PERSON"], [28, 39, "CARDINAL"]]}
+{"id": 5, "text": "Hong's email is t x 1 r z a four seven at yahoo dot com", "entities": [[0, 4, "PERSON"], [16, 55, "EMAIL"]]}
+{"id": 6, "text": "yes, Forstest car is SY8792H", "entities": [[5, 13, "PERSON"], [21, 28, "CAR_PLATE"]]}
+{"id": 7, "text": "t a n b b at gmail dot com is BB's Gmail, do you know ?", "entities": [[0, 26, "EMAIL"], [35, 40, "ORG"]]}
+{"id": 8, "text": "bb3encv3@yahoo.com is my yahoo id but i am using Gmail now", "entities": [[0, 18, "EMAIL"], [25, 30, "ORG"], [49, 54, "ORG"]]}
+{"id": 9, "text": "alright (err) for drinks and desserts I would I would say (uh) maybe three cans of coke and three cans of seven up", "entities": [[69, 74, "CARDINAL"], [92, 97, "CARDINAL"], [106, 111, "CARDINAL"]]}
+{"id": 10, "text": "Boon contact number is 8372-1289 but he rarely use this number", "entities": [[23, 32, "PHONE"]]}
+{"id": 11, "text": "(uh) one block view and like one clear view <B>", "entities": [[5, 8, "CARDINAL"], [29, 32, "CARDINAL"]]}
+{"id": 12, "text": "the expiry date is first january twenty twenty five <B>", "entities": [[25, 32, "DATE"]]}
+{"id": 13, "text": "SU4597Z is your car number, is it parked outside the hotel", "entities": [[0, 7, "CAR_PLATE"]]}
+{"id": 14, "text": "0321-9329-7066-0001 is my brother Tan's card, please call him to verify and his IC number S0768363 amd email is boonchang90@gmail.com", "entities": [[0, 19, "CREDIT_CARD"], [34, 37, "PERSON"], [112, 133, "EMAIL"]]}
+{"id": 15, "text": "POSB bank account details: 236-38502-7 and to (uh) cater to the needs of our travelers so you mentioned that the it was a little bit boring (uh) we'll definitely (ppb) (uh) try to improve on that is there any particular (ppb) aspect that you find or was it like the whole trip that was boring", "entities": [[0, 4, "ORG"], [27, 38, "BANK_ACCOUNT"]]}
+{"id": 16, "text": "you'll travel with us soon and then we'll give you a better experience thank you and please transfer the money to 236-38502-7", "entities": [[114, 125, "BANK_ACCOUNT"]]}
+{"id": 17, "text": "0642 9329 8296 6506 is American Express card and John is got it last month and his contact is 8296-5501", "entities": [[0, 19, "CREDIT_CARD"], [23, 39, "ORG"], [49, 53, "PERSON"], [94, 103, "PHONE"]]}
+{"id": 18, "text": "(uh) we are I'm planning to go at the end of this month so in like one week's time", "entities": []}
+{"id": 19, "text": "(ppb) would there be any discount that would bring an elderly and her contact is +65 65841894", "entities": [[81, 93, "PHONE"]]}
+{"id": 20, "text": "(ppo) hotel holidays (ppl) and transfer to DBS bank account and contact is same 6889-5748 or 68895748", "entities": [[43, 46, "ORG"], [80, 89, "PHONE"], [93, 101, "PHONE"]]}
+{"id": 21, "text": "I would prefer to have a one master and one twin bed", "entities": [[25, 28, "CARDINAL"], [29, 35, "ORG"], [40, 43, "CARDINAL"]]}
+{"id": 22, "text": "okay sure then is there any other packages that we can take up like maybe if we book this hotel are we able to go to any (uh) local special places places of interest in singapore as well", "entities": [[169, 178, "GPE"]]}
+{"id": 23, "text": "K so there is no charges however like what I mentioned just now you need to maintain a minimum of (uh) ten K for your bank account", "entities": [[103, 108, "MONEY"]]}
+{"id": 24, "text": "so my number is nine one three four seven three zero five (ppb) and my last four digits of my I_C is eight one one G", "entities": [[16, 57, "PHONE"], [101, 116, "NRIC"]]}
+{"id": 25, "text": "Ravi, this could be our lead! The thief might be using this vehicle. We need to trace this car plate number: SG7165B", "entities": [[0, 4, "PERSON"], [109, 116, "CAR_PLATE"]]}
+{"id": 26, "text": "This belongs to a renowned artifact smuggler and the email read, with the passport number S8978801C prominently displayed", "entities": [[90, 99, "NRIC"]]}
+{"id": 27, "text": "With the leads piling up, Beatrice embarked on a thrilling chase across Singapore,from the bustling streets of Little India to the serene pathways of the Botanic Gardens", "entities": [[26, 34, "PERSON"], [72, 81, "GPE"], [111, 123, "LOC"], [154, 169, "LOC"]]}
+{"id": 28, "text": "If you need further clarification, reach me at cherry@yahoo.com or call me directly at 6562-4336", "entities": [[47, 63, "EMAIL"], [87, 96, "PHONE"]]}
+{"id": 29, "text": "seven pax okay and then is there a minimum or something before this tour will be confirmed", "entities": [[0, 5, "CARDINAL"]]}
+{"id": 30, "text": "Here is the NRIC, S8978801C.I wrote it down just in case,she handed over a crumpled piece of paper", "entities": [[18, 27, "NRIC"]]}
+{"id": 31, "text": "my Home number is same as earlier 8123-4567", "entities": [[34, 43, "PHONE"]]}
+{"id": 32, "text": "This belongs to a renowned artifact smuggler,the email read, with the passport number K9644461Z", "entities": [[86, 95, "PASSPORT_NUM"]]}
+{"id": 33, "text": "j o n a t h a n at gmail dot com or call me directly at 9835-3777", "entities": [[0, 32, "EMAIL"], [56, 65, "PHONE"]]}
+{"id": 34, "text": "Is the F3456789C is valid NRIC number and not sure it starts with F", "entities": [[7, 16, "NRIC"]]}
+{"id": 35, "text": "ya (uh) one four six eight four five two sorry (uh) one four six eight four five two eight", "entities": [[8, 40, "PHONE"], [52, 90, "PHONE"]]}
+{"id": 36, "text": "okay so can I just ask (um) this suitcase is just one am I right", "entities": []}
+{"id": 37, "text": "okay so you can just email (um) to z y x c h a n M R C insurance at gmail dot com and then you can attention it to me (uh) you can attention to john #tan#", "entities": [[35, 81, "EMAIL"], [144, 153, "PERSON"]]}
+{"id": 38, "text": "like it's a college (uh) (uh) it's a college exchange so we are going to taiwan", "entities": [[73, 79, "GPE"]]}
+{"id": 39, "text": "yes, credit card number is 1893-1813-2074-2001 and another one is 8893-1533-2466-0909 is Master card", "entities": [[27, 46, "CREDIT_CARD"], [66, 85, "CREDIT_CARD"], [89, 95, "ORG"]]}
+{"id": 40, "text": "No, email contact is robert thomas biz at yahoo dot com and it working again", "entities": [[21, 55, "EMAIL"]]}
+{"id": 41, "text": "as much as I say I don't need the S_M_S maybe sometimes you know some people require to use S_M_S and stuff like that and c h a n eighty nine at Gmail dot com", "entities": [[122, 158, "EMAIL"]]}
+{"id": 42, "text": "ya I can do friday because I think I'll be in the office but what time would that be", "entities": [[12, 18, "DATE"]]}
+{"id": 43, "text": "Thanks a lot for your support and my account number is 111-56774-9", "entities": [[55, 66, "BANK_ACCOUNT"]]}
+{"id": 44, "text": "vivek@gmail.com or call me directly at 9830-34567", "entities": [[0, 15, "EMAIL"], [39, 49, "PHONE"]]}
+{"id": 45, "text": "it (uh) sure so you would like to add on one more (uh) bed right and please mail to customer support email emailsupport@altair.com", "entities": [[41, 44, "CARDINAL"], [107, 130, "EMAIL"]]}
+{"id": 46, "text": "Ravi, this could be our lead! The thief might be using this vehicle. We need to trace this car plate number SK6433T", "entities": [[0, 4, "PERSON"], [108, 115, "CAR_PLATE"]]}
+{"id": 47, "text": "Inside, you'll find a credit card statement showing transactions that align with the theft timings, he whispered. Ravi glimpsed the credit card information: 2322-4249-9427-9019", "entities": [[114, 118, "PERSON"], [157, 176, "CREDIT_CARD"]]}
+{"id": 48, "text": "but (uh) each time the the guest inside right they if they are not doing the running track right they are they need to wear mask then (uh) each time we are able to allow for fifteen guests inside Here are my bank account details: 773-37807-7", "entities": [[174, 181, "CARDINAL"], [230, 241, "BANK_ACCOUNT"]]}
+{"id": 49, "text": "Kanda transfered the money to Niko OCBC account 888-20011-0.Not sure he has any account with POSB bank", "entities": [[30, 34, "PERSON"], [35, 39, "ORG"], [48, 59, "BANK_ACCOUNT"], [93, 97, "ORG"]]}
+{"id": 50, "text": "Raam glimpsed the credit card information and it is from VISA card and number 8888-4249-9427-1019", "entities": [[57, 61, "ORG"], [78, 97, "CREDIT_CARD"]]}
+{"id": 51, "text": "For further clarification, reach me at rendy.tan@hotmail.com or call me directly at 9800-5331", "entities": [[39, 60, "EMAIL"], [84, 93, "PHONE"]]}
+{"id": 52, "text": "okay (uh) contact number just put Nine eight four zero six four one three", "entities": [[34, 73, "PHONE"]]}
+{"id": 53, "text": "Here are my bank account details is 672-09563-2", "entities": [[36, 47, "BANK_ACCOUNT"]]}
+{"id": 54, "text": "He reached out to her through her professional website, sending a message to her mail h e n y c h a n at outlook dot com", "entities": [[86, 120, "EMAIL"]]}
+{"id": 55, "text": "he transaction was smooth, with Adrian handing over his credit card and joking, Here's my card number 3311-2493-2826-1966", "entities": [[32, 38, "PERSON"], [102, 121, "CREDIT_CARD"]]}
+{"id": 56, "text": "Here are my bank account details, ple check this 879-24751-0", "entities": [[49, 60, "BANK_ACCOUNT"]]}
+{"id": 57, "text": "Chandra's UOB bank account is 921 372 579 2", "entities": [[0, 7, "PERSON"], [10, 13, "ORG"], [30, 43, "BANK_ACCOUNT"]]}
+{"id": 58, "text": "Chandra's UOB bank account is 5240 4088-0152 1709", "entities": [[0, 7, "PERSON"], [10, 13, "ORG"], [30, 49, "CREDIT_CARD"]]}
+{"id": 59, "text": "SMA 476G, that is number Mr.Lee needs to trace,yup okay no worries anything else you can (uh) call back this number and thank you so much and have a nice day bye bye", "entities": [[0, 8, "CAR_PLATE"], [25, 27, "PERSON"], [28, 31, "PERSON"]]}
+{"id": 60, "text": "T6404940I. is my id and used all the time, thanks", "entities": [[0, 9, "NRIC"]]}
+{"id": 61, "text": "My contact is Nine zero six two five six four three and IC's last four digits is zero zero seven A, okay (uh) my full name is janice #Teh# (uh) #Wei Ling#", "entities": [[14, 51, "PHONE"], [81, 98, "NRIC"], [126, 137, "PERSON"], [145, 153, "PERSON"]]}
+{"id": 62, "text": "yes VISA card 5240-4066-8152-1709", "entities": [[4, 8, "ORG"], [14, 33, "CREDIT_CARD"]]}
+{"id": 63, "text": "The car plate is SBC 770 X and it same as SBC700X okay?", "entities": [[17, 26, "CAR_PLATE"], [42, 49, "CAR_PLATE"]]}
+{"id": 64, "text": "[ah] okay (um) then (uh) how about next week wednesday I will be, I'll come at at around two-thirty", "entities": [[45, 54, "DATE"], [82, 99, "CARDINAL"]]}
+{"id": 65, "text": "chan.lee@apple.com or call me directly at Six five six two two four three nine", "entities": [[0, 18, "EMAIL"], [42, 78, "PHONE"]]}
+{"id": 66, "text": "(mm) sure (uh) could I have your name please [ah] mister nick (um) yup (uh) mister nick may I know if (uh) if this will be [ah] are you transferring your car insurance from another company to our company or this is the first time you are applying", "entities": [[57, 61, "PERSON"], [83, 91, "PERSON"]]}
+{"id": 67, "text": "3795 7300 8146 8847 Mark glimpsed the credit card it is a VISA card", "entities": [[0, 19, "CREDIT_CARD"], [20, 24, "PERSON"], [58, 62, "ORG"]]}
+{"id": 68, "text": "Heres the man's NRIC G5319263M wrote it down just in case", "entities": [[21, 30, "NRIC"]]}
+{"id": 69, "text": "The car number is SDP222 U and it same as SDP222U renowned artifact smuggled U okay?", "entities": [[18, 26, "CAR_PLATE"], [42, 49, "CAR_PLATE"]]}
+{"id": 70, "text": "Vijay has a rental card and it is SY8792H and it can be written in the record as SY8792 H", "entities": [[34, 41, "CAR_PLATE"], [81, 89, "CAR_PLATE"]]}
+{"id": 71, "text": "Jacob's car is SB133 E and it can be written in the record as SB133E and it vintage car already", "entities": [[0, 5, "PERSON"], [15, 22, "CAR_PLATE"], [62, 68, "CAR_PLATE"]]}
+{"id": 72, "text": "uh afternoon about two P_M so (uh) ya which brings me (uh) is there like a time limit for us to sit in", "entities": [[3, 12, "TIME"], [13, 22, "CARDINAL"]]}
+{"id": 73, "text": "SNQ4567 A is new EV car it is a trend in Singapore and Xin Xin got new car and registered as SNQ4567A ", "entities": [[0, 9, "CAR_PLATE"], [41, 50, "GPE"], [55, 58, "PERSON"], [59, 62, "PERSON"], [93, 101, "CAR_PLATE"]]}
+{"id": 74, "text": "These numbers are valid vehicle plate numbers in Singapore SDN 7484U and SHA300J is same as SHA390Z", "entities": [[49, 58, "GPE"], [59, 68, "CAR_PLATE"], [73, 80, "CAR_PLATE"], [92, 99, "CAR_PLATE"]]}
+{"id": 75, "text": "yes please charge the invoice by creditcard 4273 5141 9211 0013 and it valid number", "entities": [[44, 63, "CREDIT_CARD"]]}
+{"id": 76, "text": "please mail me at s u s a n at outlook dot com dot sg or susan@outlook.com.sg or whatsapp me", "entities": [[18, 53, "EMAIL"], [57, 77, "EMAIL"]]}
+{"id": 77, "text": "the lost card number is 4273 5141 9211 8901 please help me block it", "entities": [[24, 43, "CREDIT_CARD"]]}
+{"id": 78, "text": "K4211557 Q is my brothers Passport and it may old passport one", "entities": [[0, 10, "PASSPORT_NUM"]]}
+{"id": 79, "text": "K5213994 U, is the passport number said Jonothan it may be fake number", "entities": [[0, 10, "PASSPORT_NUM"], [40, 48, "PERSON"]]}
+{"id": 80, "text": "is your VISA card is 0642-9329-7066-8755 call your bank if anything wrong at 80011020", "entities": [[8, 12, "ORG"], [21, 40, "CREDIT_CARD"], [77, 85, "PHONE"]]}
+{"id": 81, "text": "he do not really know the passport number K8608363 G my passport and my account number is 772 09111 0", "entities": [[42, 52, "PASSPORT_NUM"], [90, 101, "BANK_ACCOUNT"]]}
+{"id": 82, "text": "Need to check the details it may be K7608360C my passport K7608360 C", "entities": [[36, 45, "PASSPORT_NUM"], [58, 68, "PASSPORT_NUM"]]}
+{"id": 83, "text": "Chandra and Vijay travellig together they carry similar Passport a K1608318 Q my passport K1608318Q", "entities": [[12, 17, "PERSON"], [67, 77, "PASSPORT_NUM"], [90, 99, "PASSPORT_NUM"]]}
+{"id": 84, "text": "My IC number starts with F and it is F7608363 G and my brother one starts with G and it G7601842 D", "entities": [[37, 47, "NRIC"], [88, 98, "NRIC"]]}
+{"id": 85, "text": "I lost my passport and it new one number is K7601842T and K7601842 T", "entities": [[44, 53, "PASSPORT_NUM"], [58, 68, "PASSPORT_NUM"]]}
+{"id": 86, "text": "Lee has lost his passport and his ic on the same day at airport his ic S7887182 I and it public holiday", "entities": [[71, 81, "NRIC"]]}
+{"id": 87, "text": "Mark has lost his passport and it new one K8901842I and K8901842 I", "entities": [[42, 51, "PASSPORT_NUM"], [56, 66, "PASSPORT_NUM"]]}
+{"id": 88, "text": "okay (uh) so (uh) I'm travelling with with my wife who's about forty five my two children who is ten and twelve and I'm also travelling with my elderly mother who is about seventy two", "entities": [[57, 73, "CARDINAL"], [77, 80, "CARDINAL"], [166, 183, "CARDINAL"]]}
+{"id": 89, "text": "and actually (uh) I just want to check with you because we're travelling to #hokkaido# in december I heard it will be winter during that time [ah] and my children they actually fall sick quite easily so I was just wondering like (uh) if my children were to fall let's say touch wood fall sick and get hospitalised will the insurance plan actually cover that", "entities": [[77, 85, "GPE"], [90, 98, "DATE"]]}
+{"id": 90, "text": "hope that (ppl) I can use it ya ya so ya maybe you all can ya just take note because ya and transfer money to OCBC 764-917253-8", "entities": [[110, 114, "ORG"], [115, 127, "BANK_ACCOUNT"]]}
+{"id": 91, "text": "it is a code unlocking opportunities and facilitating strategic expansion and more than a passport K 4213904 U and another one is K 0891816 C", "entities": [[99, 110, "PASSPORT_NUM"], [130, 141, "PASSPORT_NUM"]]}
+{"id": 92, "text": "mail read with the passport number K 4937319 D a single line of text that held the key to a new identity a stolen future a desperate escape", "entities": [[35, 46, "PASSPORT_NUM"]]}
+{"id": 93, "text": "found some ancient records that might help, but I need to purchase them.transfer the funds to my savings account? Here are my account details 789-456123-0.", "entities": [[142, 154, "BANK_ACCOUNT"]]}
+{"id": 94, "text": "okay sure no problem yup so let me see here okay I think yes ya correct account 349 572108 1", "entities": [[80, 92, "BANK_ACCOUNT"]]}
+{"id": 95, "text": "call one banking hello thank you so much for calling A B C bank this is amy on the line and how can I help you today", "entities": [[5, 8, "CARDINAL"], [53, 58, "ORG"], [72, 75, "PERSON"], [111, 116, "DATE"]]}
+{"id": 96, "text": "so of course these three types of credit cards help do have different features so we have the cashback credit card air miles credit card and rewards credit card so these three credit cards (um) of course they have they also have different perks okay to reward our customers for using our cards", "entities": [[19, 24, "CARDINAL"], [170, 175, "CARDINAL"]]}
+{"id": 97, "text": "you spend a lot on and claim the GST but need your foreign passport. yes i have K7486467P and my father's passport K1918729W", "entities": [[80, 89, "PASSPORT_NUM"], [115, 124, "PASSPORT_NUM"]]}
+{"id": 98, "text": "maybe let me just describe to you in detail about rewards credit card okay so rewards credit card (uh) you can only get points when you spend on certain brands so rewards (uh) wise but of course it's a wide variety of brands like we have N_T_U_C cold storage for supermarket these two only and then for (um) fashion brands we have like cotton on", "entities": [[238, 245, "ORG"], [246, 258, "ORG"]]}
+{"id": 99, "text": "do you have valid Singapore passport, thiru told no and his old number is K9181295C", "entities": [[18, 27, "GPE"], [74, 83, "PASSPORT_NUM"]]}
+{"id": 100, "text": "Mr.Teo's POSB saving account details: 111 385092 7", "entities": [[3, 6, "PERSON"], [9, 13, "ORG"], [38, 50, "BANK_ACCOUNT"]]}
+{"id": 101, "text": "any other questions I can help you with okay thank you thank you so much for calling A B C bank and hope you have a great day bye bye", "entities": [[85, 90, "ORG"]]}
+{"id": 102, "text": "sure so for korea we will visit a few places there will be three places we will be going one is #jeju busan# and also #seoul# (ppb) so these three places will be inside this itinerary we will visit those (uh) local attractions at", "entities": [[12, 17, "GPE"], [97, 101, "GPE"], [102, 107, "GPE"], [119, 124, "GPE"]]}
+{"id": 103, "text": "in this package we included flight to and fro the tickets for to and fro (ppb) and accommodations so our hotel right basically you will stay four star up to five star hotel", "entities": [[141, 145, "CARDINAL"], [157, 161, "CARDINAL"]]}
+{"id": 104, "text": "yup japan it's the same it just that japan right the tour guide fee will be slightly cheaper it's about one person five dollar sing five dollar sing", "entities": [[4, 9, "GPE"], [37, 42, "GPE"], [98, 107, "CARDINAL"], [115, 126, "MONEY"], [132, 143, "MONEY"]]}
+{"id": 105, "text": "yup so these two places and (ppb) ya osaka so also three places and we will visit the disneyland as well", "entities": [[37, 42, "GPE"]]}
+{"id": 106, "text": "so if you check in before eleven A_M right therenowned artifact smugglere will be a fifty dollar charge to you", "entities": [[26, 36, "TIME"], [84, 96, "MONEY"]]}
+{"id": 107, "text": "so after your this stay right all the point will go into your card (ppb) so you are able to check how many point you accumulate through the our website (ppb) you just need to login with your contact number and your last four digit of your N_R_I_C 282I", "entities": [[247, 251, "NRIC"]]}
+{"id": 108, "text": "sure miss may I know how to address you miss joyce right just now you mentioned", "entities": [[10, 13, "PERSON"], [45, 50, "PERSON"]]}
+{"id": 109, "text": "hi lily (uh) I'm joyce here I'm calling in to into your travel agency I will need your help to plan for my holiday", "entities": [[3, 7, "PERSON"], [17, 22, "PERSON"]]}
+{"id": 110, "text": "corrrect gmail jona than two eight at G mail dot com", "entities": [[9, 14, "ORG"], [15, 52, "EMAIL"]]}
+{"id": 111, "text": "Jonathan phone is eight seven seven zero four six two four", "entities": [[18, 58, "PHONE"]]}
+{"id": 112, "text": "David 's local number is nine four seven zero four six six zero", "entities": [[25, 63, "PHONE"]]}
+{"id": 113, "text": "yes that's right nine four seven zero four two six eight", "entities": [[17, 56, "PHONE"]]}
+{"id": 114, "text": "Boon's contact is nine one five two seven four two eight thank you bye bye", "entities": [[0, 4, "PERSON"], [18, 56, "PHONE"]]}
+{"id": 115, "text": "company A B B contact is eight seven two two nine four two one", "entities": [[8, 13, "ORG"], [25, 62, "PHONE"]]}
+{"id": 116, "text": "company A and B help desk contact is eight six two eight zero four two eight", "entities": [[37, 76, "PHONE"]]}
+{"id": 117, "text": "company B and C help desk contact is eight four two nine nine six two one", "entities": [[37, 73, "PHONE"]]}
+{"id": 118, "text": "company email is julia tan at G mail dot com", "entities": [[17, 44, "EMAIL"]]}
+{"id": 119, "text": "His NRIC number zero three four A", "entities": [[16, 33, "NRIC"]]}
+{"id": 120, "text": "our company email is julia lee at outlook dot com", "entities": [[21, 49, "EMAIL"]]}
+{"id": 121, "text": "can I have your email please sure customer dot service at singtel dot com", "entities": [[34, 73, "EMAIL"]]}
+{"id": 122, "text": "your email please sure customer dot service at sp dot com dot sg", "entities": [[23, 64, "EMAIL"]]}
+{"id": 123, "text": "may I have your email please can customer dot service at singtel dot com dot sg", "entities": [[33, 79, "EMAIL"]]}
+{"id": 124, "text": "the breakfast will be inside the hotel and note my mail is foon eighty eight dot tan at mail dot com", "entities": [[59, 100, "EMAIL"]]}
+{"id": 125, "text": "yes she is my colleague and her mail studnet one two one at mail dot com please contact him", "entities": [[37, 72, "EMAIL"]]}
+{"id": 126, "text": "can I verify for the mail tour dot service at G mail dot com", "entities": [[26, 60, "EMAIL"]]}
+{"id": 127, "text": "may I check the mail manager dot service at outlook dot com", "entities": [[21, 59, "EMAIL"]]}
+{"id": 128, "text": "arthur two nine at yahoo dot com or contact me via handphone number", "entities": [[0, 32, "EMAIL"]]}
+{"id": 129, "text": "reny_support at outlook dot com dot sg or contact me via handphone number", "entities": [[0, 38, "EMAIL"]]}
+{"id": 130, "text": "this is different id reny_support@outlook.com.sg is my new mail id please note ", "entities": [[21, 48, "EMAIL"]]}
+{"id": 131, "text": "not correct one justin nine five at mail dot sg is my new mail id id please note", "entities": [[12, 47, "EMAIL"]]}
+{"id": 132, "text": "sK madam #choo# you'd like to inquiry for the japan trip", "entities": [[3, 14, "PERSON"], [46, 51, "GPE"]]}
+{"id": 133, "text": "F2077565M yes, that is valid IC number only need give 565M ", "entities": [[0, 9, "NRIC"], [54, 58, "NRIC"]]}
+{"id": 134, "text": "F4663683W yes, that is valid NRIC number and please bring to office ok? need to check last 4 digits", "entities": [[0, 9, "NRIC"]]}
+{"id": 135, "text": "hi good afternoon this is chandra from A B C travel agency how can I help you and my mail is chan dot sg at G mail dot com", "entities": [[8, 17, "TIME"], [26, 33, "PERSON"], [39, 44, "ORG"], [93, 122, "EMAIL"]]}
+{"id": 136, "text": "jane unserscore doe at NEA dot sg is contact email of NEA do you know", "entities": [[0, 33, "EMAIL"], [54, 57, "ORG"]]}
+{"id": 137, "text": "okay so you would like to make a booking for four person you can send email to customer.sercive@ABC.com.sg", "entities": [[45, 49, "CARDINAL"], [79, 106, "EMAIL"]]}
+{"id": 138, "text": "last four digit of your N_R_I_C is 867H and can I have your email please power dot service at gmail dot com", "entities": [[35, 39, "NRIC"], [73, 107, "EMAIL"]]}
+{"id": 139, "text": "Mani's NRIC number nine eight six E", "entities": [[0, 4, "PERSON"], [19, 35, "NRIC"]]}
+{"id": 140, "text": "okay and (uh) mister #tan# you can I call you mister #tan#", "entities": [[14, 25, "PERSON"], [46, 57, "PERSON"]]}
+{"id": 141, "text": "Mr Ming lost his passport airport and number is K1330216 W", "entities": [[0, 7, "PERSON"], [48, 58, "PASSPORT_NUM"]]}
+{"id": 142, "text": "okay madam lau you can call me chandra and phone is same as old number hope you have it", "entities": [[5, 14, "PERSON"]]}
+{"id": 143, "text": "her nric number last 4 digits eight five two J", "entities": [[30, 46, "NRIC"]]}
+{"id": 144, "text": "Mr Ming lost his passport airport and number is K1330216 W", "entities": [[0, 7, "PERSON"], [48, 58, "PASSPORT_NUM"]]}
+{"id": 145, "text": "okay madam lau you can call me chandra and phone is same as old number hope you have it", "entities": [[5, 14, "PERSON"]]}
+{"id": 146, "text": "her nric number last 4 digits eight five two J", "entities": [[30, 46, "NRIC"]]}
+{"id": 147, "text": "F2077565M yes, that is valid IC number only need give five six five M ", "entities": [[0, 9, "NRIC"], [54, 69, "NRIC"]]}
+{"id": 148, "text": "six eight eight four seven one three four Please call me when reach home the number is same", "entities": [[0, 41, "PHONE"]]}
+{"id": 149, "text": "please call our fast service number is nine four seven seven eight nine one one please note okay", "entities": [[39, 79, "PHONE"]]}
+{"id": 150, "text": "okay I see so what is the eligibility to register this credit card what is sevice number to call six two two two two one two one", "entities": [[97, 128, "PHONE"]]}
