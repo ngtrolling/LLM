@@ -118,10 +118,11 @@ GPT2Config(
 
 | Comparison | Grammar | Creativity | Consistency | Plot | Notes |
 |------------|---------|------------|-------------|------|-------|
-| 7M Baseline vs 91.6M Custom | 7M wins all | - | - | - | Scores nearly identical; evaluator quality (LLaMA 3.1 8B) likely the limiting factor |
+| 91.6M Custom vs 7M Baseline | **Custom wins** | **Custom wins** | **Custom wins** | 7M wins | - |
 | 91.6M Custom vs GPT-Neo 33M (multi-epoch, open-source) | Neo wins | Neo wins | Neo wins | Neo wins | Unfair - Neo trained for many more epochs |
-| 91.6M Custom vs GPT-Neo 33M (1 epoch, same setting) | **Custom wins** | **Custom wins** | **Custom wins** | Neo wins | Fair comparison; custom model holds its own |
-| 91.6M Custom vs GPT-NeoX 20B (open-source) | 20B wins | 20B wins | 20B wins | **Custom wins** | After stripping mid-generation story restarts from custom output, custom model wins Consistency + Plot and leads A/B test 23–17 |
+| 91.6M Custom vs GPT-Neo 33M (1 epoch, same setting) | **Custom wins**| **Custom wins** | **Custom wins** | Neo wins | Fair comparison, custom model holds its own |
+| 91.6M Custom vs GPT-NeoX 20B (open-source) | 20B wins | 20B wins | 20B wins | **Custom wins** | Before stripping mid-generation story restarts. Custom model wins Plot only |
+| 91.6M Custom vs GPT-NeoX 20B (open-source) | 20B wins | 20B wins | **Custom wins** | **Custom wins** | After stripping mid-generation story restarts. Custom model  win Consistency + Plot and leads A/B test 23–17 |
 
 **Key insight:** Training a domain-specific model on a task-specific dataset can outperform a general model 200× its size on the target task.
 
