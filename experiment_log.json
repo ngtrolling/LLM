@@ -1,0 +1,36 @@
+[
+  {
+    "run_name": "finalised_best_model",
+    "learning_rate": 0.001,
+    "optimizer": "adam",
+    "label_smoothing": 0,
+    "final_val_loss": 1.2818074226379395,
+    "perplexity": 3.6031463146209717
+  },
+  {
+    "run_name": "gptneo_33M_replicated",
+    "learning_rate": 0.0005,
+    "optimizer": "adamw",
+    "label_smoothing": 0.0,
+    "architecture": {
+      "model_type": "GPT-Neo (replicated TinyStories-33M)",
+      "hidden_size": 768,
+      "num_layers": 4,
+      "num_heads": 16,
+      "window_size": 256,
+      "vocab": 8000,
+      "params": "36.1M"
+    },
+    "note": "Replicated TinyStories-33M architecture, custom vocab, 1 epoch",
+    "final_val_loss": 1.392404556274414,
+    "perplexity": 4.024515628814697
+  },
+  {
+    "run_name": "baseline_model",
+    "learning_rate": 0.0005,
+    "optimizer": "adamw",
+    "label_smoothing": 0,
+    "final_val_loss": 1.6599063873291016,
+    "perplexity": 5.258818626403809
+  }
+]
