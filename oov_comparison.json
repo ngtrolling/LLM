@@ -1,0 +1,10 @@
+[
+  {
+    "Model":"Fine-tuned Pythia-70M",
+    "OOV Rate (%)":0.0713775874
+  },
+  {
+    "Model":"Optimized Baseline 91.7M",
+    "OOV Rate (%)":0.068212824
+  }
+]

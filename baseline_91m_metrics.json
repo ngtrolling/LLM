@@ -1,0 +1,450 @@
+{
+  "model": "Optimized Baseline 91.7M",
+  "grammar": 8.09,
+  "creativity": 6.1,
+  "consistency": 8.23,
+  "plot": 6.17,
+  "overall": 7.15,
+  "per_prompt": [
+    {
+      "prompt": "Once upon a time, there lived a bunny in a field. Her name was Lucy. Lucy loved to have feasts and parties with her bunny friends. One day, when Lucy was about to leave for a feast at a friend's house, she realized she's starting to feel sick. She was so weak she could",
+      "avg_grammar": 8.3,
+      "avg_creativity": 6.3,
+      "avg_consistency": 8.3,
+      "avg_plot": 6.3,
+      "avg_overall": 7.3,
+      "n_completed": 10,
+      "n_failed": 0
+    },
+    {
+      "prompt": "One day a girl walked into the living room and noticed something very strange. There was a huge cabinet standing in the corner. It looked very old and heavy. She walked over and tried to open it, when suddenly",
+      "avg_grammar": 8.1,
+      "avg_creativity": 6.1,
+      "avg_consistency": 7.9,
+      "avg_plot": 5.7,
+      "avg_overall": 6.95,
+      "n_completed": 10,
+      "n_failed": 0
+    },
+    {
+      "prompt": "Once upon a time, there lived a hamster in the forest. Every day, he would walked around the forest and looking for adventures. One day, he heard someone calling out from behind the bushes.\n\nThe hamster listened carefully. He realised that it was a small mouse calling out for help. It got stuck under a heavy log and couldn't get out. The hamster immediately realized that",
+      "avg_grammar": 7.8,
+      "avg_creativity": 5.8,
+      "avg_consistency": 8.6,
+      "avg_plot": 6.6,
+      "avg_overall": 7.2,
+      "n_completed": 10,
+      "n_failed": 0
+    },
+    {
+      "prompt": "Jack asked his mom if he could ride the bike all the way to his grandmother's house. She agreed, but she said that he shouldn't ride too fast because it was raining and the path was wet.\n\nHe started riding and realized he was hungry, so he decided that he should get to his grandmother's house as fast as possible. But then he remembered his mum's words \"",
+      "avg_grammar": 7.7,
+      "avg_creativity": 5.7,
+      "avg_consistency": 7.4,
+      "avg_plot": 6.5,
+      "avg_overall": 6.83,
+      "n_completed": 10,
+      "n_failed": 0
+    },
+    {
+      "prompt": "Alice was bored and wanted to find some adventures. She walked up to her friend Ben, who looked vey busy playing with his toys. Alice said, \"Why don't we",
+      "avg_grammar": 8.2,
+      "avg_creativity": 6.3,
+      "avg_consistency": 8.4,
+      "avg_plot": 5.6,
+      "avg_overall": 7.12,
+      "n_completed": 10,
+      "n_failed": 0
+    },
+    {
+      "prompt": "Alice walked up to her friend Ben's house. She was planning to ask him to go to the park with her. When Ben opened the door, she asked him if he had any plans. He said, \"I'm sorry, Alice, but",
+      "avg_grammar": 8.0,
+      "avg_creativity": 6.1,
+      "avg_consistency": 7.9,
+      "avg_plot": 5.8,
+      "avg_overall": 6.95,
+      "n_completed": 10,
+      "n_failed": 0
+    },
+    {
+      "prompt": "The day before Ben's birthday, Alice walked into the kitchen and saw Ben sitting there, looking Gloomy. She said, \"Ben, why are you",
+      "avg_grammar": 8.2,
+      "avg_creativity": 6.3,
+      "avg_consistency": 7.9,
+      "avg_plot": 5.5,
+      "avg_overall": 6.97,
+      "n_completed": 10,
+      "n_failed": 0
+    },
+    {
+      "prompt": "Alice walked into the kitchen and saw Ben who was looking for something but looked frustrated. She said, \"Ben, why are you",
+      "avg_grammar": 8.2,
+      "avg_creativity": 6.2,
+      "avg_consistency": 8.8,
+      "avg_plot": 6.0,
+      "avg_overall": 7.3,
+      "n_completed": 10,
+      "n_failed": 0
+    },
+    {
+      "prompt": "Once upon a time there was a curious boy who lived in a house with a big garden. Every day he explored the garden he found new surprises. But one day, it was raining so hard that his mother told him",
+      "avg_grammar": 8.4,
+      "avg_creativity": 6.5,
+      "avg_consistency": 7.3,
+      "avg_plot": 5.8,
+      "avg_overall": 7.0,
+      "n_completed": 10,
+      "n_failed": 0
+    },
+    {
+      "prompt": "Once upon a time, there was tiger who liked to play the guitar. One day, a bunny heard the guitar from a distance and",
+      "avg_grammar": 8.1,
+      "avg_creativity": 6.2,
+      "avg_consistency": 8.7,
+      "avg_plot": 6.5,
+      "avg_overall": 7.38,
+      "n_completed": 10,
+      "n_failed": 0
+    },
+    {
+      "prompt": "Alice wanted to play with her doll, but she couldn't remember where she had put it. She looked all around the house but couldn't find it, so she decided",
+      "avg_grammar": 8.1,
+      "avg_creativity": 5.7,
+      "avg_consistency": 7.9,
+      "avg_plot": 6.0,
+      "avg_overall": 6.92,
+      "n_completed": 10,
+      "n_failed": 0
+    },
+    {
+      "prompt": "\"Ben, what do you have in your pocket?\", Alice asked. \"Oh, nothing.\", Ben replied. But Alice saw that there was definitely something in Ben's pocket, and she was very curious what it was, so she",
+      "avg_grammar": 8.1,
+      "avg_creativity": 6.0,
+      "avg_consistency": 8.5,
+      "avg_plot": 5.8,
+      "avg_overall": 7.1,
+      "n_completed": 10,
+      "n_failed": 0
+    },
+    {
+      "prompt": "One day, a bird was flying high over the sea. At some point the bird noticed small boat with a boy sitting inside. The boy looked lost so",
+      "avg_grammar": 8.4,
+      "avg_creativity": 6.4,
+      "avg_consistency": 7.9,
+      "avg_plot": 6.2,
+      "avg_overall": 7.22,
+      "n_completed": 10,
+      "n_failed": 0
+    },
+    {
+      "prompt": "Jimmy was on his way to school with his father when he noticed a tree with strange looking fruits on it. He asked his father, \"Can I try",
+      "avg_grammar": 7.9,
+      "avg_creativity": 5.7,
+      "avg_consistency": 7.5,
+      "avg_plot": 5.4,
+      "avg_overall": 6.62,
+      "n_completed": 10,
+      "n_failed": 0
+    },
+    {
+      "prompt": "Once upon a time, there lived two best friends called Jack and Joe. They were bored, they wanted someone else to talk to or play with. Jack had an idea. He said to Joe, \u201cLet\u2019s go and find",
+      "avg_grammar": 8.0,
+      "avg_creativity": 5.8,
+      "avg_consistency": 8.7,
+      "avg_plot": 6.3,
+      "avg_overall": 7.2,
+      "n_completed": 10,
+      "n_failed": 0
+    },
+    {
+      "prompt": "Jack and Sally were running through the woods together when they stopped suddenly. They heard a strange sound coming from around the corner.\n\n\u201cWhat's that?\u201d asked Jack.\n\nSally put her finger to her lips and said, \u201cShhhh. Let's go find out.\u201d\n\nJack and Sally followed the",
+      "avg_grammar": 8.3,
+      "avg_creativity": 6.4,
+      "avg_consistency": 7.5,
+      "avg_plot": 5.9,
+      "avg_overall": 7.03,
+      "n_completed": 10,
+      "n_failed": 0
+    },
+    {
+      "prompt": "Once upon a time there was a little bear named Diva. She was hungry, and wanted to bake a cake, but she didn't have any sugar at home, so she decided to go ask around. She started walking and met a squirrel. She asked the squirrel, \"Would you happen",
+      "avg_grammar": 8.4,
+      "avg_creativity": 6.6,
+      "avg_consistency": 8.4,
+      "avg_plot": 6.6,
+      "avg_overall": 7.5,
+      "n_completed": 10,
+      "n_failed": 0
+    },
+    {
+      "prompt": "Anna was a popular girl, who walked to school every day carrying a very heavy backpack. It was so heavy that she could hardly walk.\n\nOne day, Anna's friends asked her why her backpack was so heavy. She said that",
+      "avg_grammar": 7.4,
+      "avg_creativity": 4.8,
+      "avg_consistency": 5.9,
+      "avg_plot": 5.2,
+      "avg_overall": 5.83,
+      "n_completed": 10,
+      "n_failed": 0
+    },
+    {
+      "prompt": "Once there was a young girl named Anna. She was three years old and usually very happy. Today she was sad because she couldn't play in the park. She had asked her parents to take her but they wouldn't listen. Anna insisted that ",
+      "avg_grammar": 7.9,
+      "avg_creativity": 6.3,
+      "avg_consistency": 8.1,
+      "avg_plot": 6.1,
+      "avg_overall": 7.1,
+      "n_completed": 10,
+      "n_failed": 0
+    },
+    {
+      "prompt": "One day, Grandma was in the kitchen getting ready to prepare. She had the ingredients for a tasty dish.\n\nGrandma said to her granddaughter, \"Are you going to help me make this meal?\" Her granddaughter, Jenny, replied, \"Yes, I will help you!\"\n\nGrandma and Jenny began to prepare the ingredients. Jenny was clumsy. She dropped",
+      "avg_grammar": 8.0,
+      "avg_creativity": 5.8,
+      "avg_consistency": 8.8,
+      "avg_plot": 5.7,
+      "avg_overall": 7.08,
+      "n_completed": 10,
+      "n_failed": 0
+    },
+    {
+      "prompt": "Once upon a time there was a boy named Max. He was at the market with his mother, where he saw two things he wanted very much: a toy car and a jumping rope.\n\nHe knew that his mother would not let him buy both of these things, and that she would probably tell him that he has to choose one. He said to her, \"I want both",
+      "avg_grammar": 8.1,
+      "avg_creativity": 6.0,
+      "avg_consistency": 8.8,
+      "avg_plot": 6.3,
+      "avg_overall": 7.3,
+      "n_completed": 10,
+      "n_failed": 0
+    },
+    {
+      "prompt": "Once upon a time there was a small brown mouse who lived in a big tree. The mouse wanted to be better friends with the birds that flew around the tree, but they were always too afraid to let him get close. \n\nOne day, the mouse spoke to the birds bravely, \"Please don't be",
+      "avg_grammar": 8.0,
+      "avg_creativity": 6.2,
+      "avg_consistency": 8.5,
+      "avg_plot": 6.6,
+      "avg_overall": 7.33,
+      "n_completed": 10,
+      "n_failed": 0
+    },
+    {
+      "prompt": "Once upon a time there was a mummy, a daddy and a little girl. The family lived in a house and the little girl liked to play in the living room. Her favourite spot was a big, comfy armchair. \n\nOne day, the little girl was playing in the armchair when mummy and daddy said it was time to go. She didn't want to leave, she wanted to stay in her",
+      "avg_grammar": 8.0,
+      "avg_creativity": 6.0,
+      "avg_consistency": 8.6,
+      "avg_plot": 6.6,
+      "avg_overall": 7.3,
+      "n_completed": 10,
+      "n_failed": 0
+    },
+    {
+      "prompt": "Jack was a chubby little boy. He liked to pick flowers in the garden. One day, he went out to the garden to pick some flowers but his Mom said he had to take his medicine first. He didn't like the medicine's taste.\n\n\"Do I have to take it?\" Jack asked.\n\nHis Mom nodded. \"Yes,",
+      "avg_grammar": 8.0,
+      "avg_creativity": 6.0,
+      "avg_consistency": 9.0,
+      "avg_plot": 6.8,
+      "avg_overall": 7.45,
+      "n_completed": 10,
+      "n_failed": 0
+    },
+    {
+      "prompt": "Once upon a time, there lived a small dog named Spike. He was an adventurous pup who loved to explore the world. One day, while he was wandering around, he stumbled upon a big tree. He saw something shining at the top. He wanted to climb it to see what it was.\n\nSpike placed his paws on the trunk and started to climb, but the trunk was too",
+      "avg_grammar": 8.3,
+      "avg_creativity": 7.2,
+      "avg_consistency": 8.6,
+      "avg_plot": 6.7,
+      "avg_overall": 7.7,
+      "n_completed": 10,
+      "n_failed": 0
+    },
+    {
+      "prompt": "Once there was a mother and daughter walking in the park. They noticed a bird perched on a branch, singing its song. The daughter shouted with delight, \u201cLook Mommy! A bird!\u201d\n\nThe mother smiled and said, \u201cYes! See how colorful it is?\u201d\n\nThe daughter then asked, \u201cCan I share my snack with it?\u201d\n\nThe mother replied, \u201cNo, sweetie. That's a bad idea because",
+      "avg_grammar": 8.1,
+      "avg_creativity": 6.0,
+      "avg_consistency": 8.7,
+      "avg_plot": 6.8,
+      "avg_overall": 7.4,
+      "n_completed": 10,
+      "n_failed": 0
+    },
+    {
+      "prompt": "Once upon a time there were two friends, Max and Alex. One day Max invited Alex to his house for lunch. Alex was excited to accept, and so they went.\n\nWhen they arrived, Max told Alex that he had made soup for lunch. Alex was excited and thanked Max for his kind invitation. Max smiled and said it was easy to make.\n\nLater, it was time to eat the soup. Max took the first spoonful and tasted it. He realized something must be wrong with the soup, because it tasted very weird. He said to Alex, \"This soup",
+      "avg_grammar": 8.0,
+      "avg_creativity": 6.0,
+      "avg_consistency": 8.8,
+      "avg_plot": 6.8,
+      "avg_overall": 7.4,
+      "n_completed": 10,
+      "n_failed": 0
+    },
+    {
+      "prompt": "Once upon a time there was a little girl called Emma. She was only three years old. One day, her aunt said to her, \u201cEmma, would you like to go out with me to pick up some flowers?\u201d\n\nEmma was very excited. She said,",
+      "avg_grammar": 8.2,
+      "avg_creativity": 5.9,
+      "avg_consistency": 8.5,
+      "avg_plot": 6.1,
+      "avg_overall": 7.17,
+      "n_completed": 10,
+      "n_failed": 0
+    },
+    {
+      "prompt": "Once upon a time there was a little girl named Lucy. She loved to explore the world around her, especially when it was bright and sunny outside. \n\nOne day, while exploring the nearby park, Lucy came across an old and long rock wall. She was curious and wanted to get to the top, so she began to look around for something she could use to climb it. Suddenly, she spotted a",
+      "avg_grammar": 8.1,
+      "avg_creativity": 6.0,
+      "avg_consistency": 8.3,
+      "avg_plot": 6.1,
+      "avg_overall": 7.12,
+      "n_completed": 10,
+      "n_failed": 0
+    },
+    {
+      "prompt": "Once upon a time there was a small girl named Lucy. She was only three years old and was very adventurous. She loved to explore the world around her, especially when it was bright and sunny outside. \n\nOne day, while exploring the nearby park, Lucy came across a ladder leaning on a wall. She was curious to see what's on top, so she climbed the ladder, but when she reached the top, the ladder fell and she was stuck.\n\nA nearby park ranger noticed her and shouted out, \"",
+      "avg_grammar": 8.0,
+      "avg_creativity": 5.8,
+      "avg_consistency": 8.5,
+      "avg_plot": 6.3,
+      "avg_overall": 7.15,
+      "n_completed": 10,
+      "n_failed": 0
+    },
+    {
+      "prompt": "Once upon a time, in a far away land, two best friends, Bob and Jill, were playing hide and seek. Jill hid below a large wooden table. She was very quiet so that",
+      "avg_grammar": 8.4,
+      "avg_creativity": 6.8,
+      "avg_consistency": 8.3,
+      "avg_plot": 6.3,
+      "avg_overall": 7.45,
+      "n_completed": 10,
+      "n_failed": 0
+    },
+    {
+      "prompt": "Once upon a time there was a pumpkin. It was a very special pumpkin, it could speak. It was sad because it couldn't move. Every day, it would say",
+      "avg_grammar": 8.0,
+      "avg_creativity": 6.9,
+      "avg_consistency": 8.4,
+      "avg_plot": 6.0,
+      "avg_overall": 7.33,
+      "n_completed": 10,
+      "n_failed": 0
+    },
+    {
+      "prompt": "Once upon a time there were two friends, Sally and Joe who liked to go to each other's house. One day, Joe wanted to visit Sally so he walked up to her house. He knocked on the door, but",
+      "avg_grammar": 8.1,
+      "avg_creativity": 6.0,
+      "avg_consistency": 8.7,
+      "avg_plot": 6.8,
+      "avg_overall": 7.4,
+      "n_completed": 10,
+      "n_failed": 0
+    },
+    {
+      "prompt": "Mum was getting ready for bed, so she told her son, \"It's time for a bath\". He nodded and ran off to the bathroom. He watched as Mum turned on the bathtub, the water pouring out of the tap and filling the tub.\n\nMum asked, \"What do you want in your bath?\" He thought for a moment and said",
+      "avg_grammar": 8.3,
+      "avg_creativity": 5.8,
+      "avg_consistency": 9.1,
+      "avg_plot": 6.2,
+      "avg_overall": 7.35,
+      "n_completed": 10,
+      "n_failed": 0
+    },
+    {
+      "prompt": "Once upon a time, there was a jolly boy named Dan. He was a youth of three years old. He liked to play outside in the bright sunshine.\n\nOne day, Dan was playing in his garden when he saw something very exciting.\n\n\u201cLook, Mama!\u201d shouted Dan, \u201cI see something moving!\u201d\n\nMama peered around the corner to see what Dan was pointing at. It was a",
+      "avg_grammar": 8.7,
+      "avg_creativity": 7.0,
+      "avg_consistency": 8.0,
+      "avg_plot": 6.0,
+      "avg_overall": 7.42,
+      "n_completed": 10,
+      "n_failed": 0
+    },
+    {
+      "prompt": "Once upon a time there was a little boy named Tom. Tom loved playing outside, but he always had to be careful not to make too much noise.\n\nOne day, Tom went out to explore the garden. Soon he found an unusual fruit. It looked like a prune! Tom picked up the prune and looked at it closely. It smelled sweet.\n\nTom wanted to find out how the prune tasted, so he",
+      "avg_grammar": 8.0,
+      "avg_creativity": 6.0,
+      "avg_consistency": 8.8,
+      "avg_plot": 6.6,
+      "avg_overall": 7.35,
+      "n_completed": 10,
+      "n_failed": 0
+    },
+    {
+      "prompt": "Once there were two friends who were walking together in the park. One had a cane and the other didn't. The one without the cane wanted to borrow the cane from the other. But the other friend said",
+      "avg_grammar": 7.8,
+      "avg_creativity": 5.2,
+      "avg_consistency": 7.1,
+      "avg_plot": 5.2,
+      "avg_overall": 6.33,
+      "n_completed": 10,
+      "n_failed": 0
+    },
+    {
+      "prompt": "One day, Timmy had a goal. He wanted to fit into his favorite toy car. He was very excited, but grumpy too. He tried to fit into the car but he was",
+      "avg_grammar": 8.0,
+      "avg_creativity": 6.0,
+      "avg_consistency": 8.2,
+      "avg_plot": 6.2,
+      "avg_overall": 7.1,
+      "n_completed": 10,
+      "n_failed": 0
+    },
+    {
+      "prompt": "Once upon a time, there was a little girl. Her name was Julia. Every day, Julia helped her mama do the laundry. It was her favourite job. She loved to put the",
+      "avg_grammar": 8.2,
+      "avg_creativity": 6.3,
+      "avg_consistency": 9.0,
+      "avg_plot": 6.2,
+      "avg_overall": 7.42,
+      "n_completed": 10,
+      "n_failed": 0
+    },
+    {
+      "prompt": "It was a sunny day and Ben wanted to go outside and play. He grabbed his toy car and ran to the garden. Suddenly, something pinched his hand!\n\nBen looked around but there was nothing there. He was scared so he held onto the hoop tightly.\n\nThen he heard a voice. \"Don't be scared, little one. It's just me!\"\n\nBen looked up and saw a big, scary spider. He was scared!\n\nThe spider smiled. \"Don't be scared, I just wanted to",
+      "avg_grammar": 8.0,
+      "avg_creativity": 6.3,
+      "avg_consistency": 7.4,
+      "avg_plot": 5.8,
+      "avg_overall": 6.88,
+      "n_completed": 10,
+      "n_failed": 0
+    },
+    {
+      "prompt": "Once upon a time there was a little girl. She liked to go out and explore the world. One day she decided to go for a walk in the forest.\n\nAs she was walking, she spotted a mysterious house. She stepped closer to get a better look. Suddenly, a witch appeared from the door, and the little girl was very scared. \n\n\"What do you want?\" asked the witch.\n\nThe little girl was brave and said, \"I want to explore this house and see",
+      "avg_grammar": 8.2,
+      "avg_creativity": 6.4,
+      "avg_consistency": 7.6,
+      "avg_plot": 6.1,
+      "avg_overall": 7.08,
+      "n_completed": 10,
+      "n_failed": 0
+    },
+    {
+      "prompt": "Once there was a boy named Sam. He was three years old and very naughty. One day, his mom told him not to touch her phone but Sam did not listen. He picked up the phone and started playing with it.\n\nMom saw him and said, \"be careful not to",
+      "avg_grammar": 8.0,
+      "avg_creativity": 6.0,
+      "avg_consistency": 8.8,
+      "avg_plot": 6.8,
+      "avg_overall": 7.4,
+      "n_completed": 10,
+      "n_failed": 0
+    },
+    {
+      "prompt": "Once upon a time, there lived a black cat. The cat belonged to a little girl called Katie. Every day, Katie would take her cat for a walk in the park. \n\nOne day, as Katie and her cat were walking around, they saw a mean looking man. He said he wanted to take the cat, to which she replied \"This cat belongs",
+      "avg_grammar": 8.0,
+      "avg_creativity": 6.0,
+      "avg_consistency": 7.9,
+      "avg_plot": 6.2,
+      "avg_overall": 7.03,
+      "n_completed": 10,
+      "n_failed": 0
+    },
+    {
+      "prompt": "Once upon a time, there was a little boy who was always naughty. His mom was always telling him to be good, but he kept disobeying her rules and ignoring her warnings. \n\nOne day, he was so naughty that his mom decided to punish him. She told him that he had to",
+      "avg_grammar": 8.0,
+      "avg_creativity": 5.8,
+      "avg_consistency": 8.3,
+      "avg_plot": 6.6,
+      "avg_overall": 7.17,
+      "n_completed": 10,
+      "n_failed": 0
+    }
+  ]
+}
