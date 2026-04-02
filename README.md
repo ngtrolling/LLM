@@ -1,4 +1,4 @@
-# AAI3008 – Large Language Models: Group 11
+# AAI3008 - Large Language Models: Group 11
 ## A Dive into Large Language Model Configurations & Optimization Strategies
 
 This repository contains the full experimental pipeline for Group 11's AAI3008 project. The central question is whether a **smaller, carefully designed model** can match the story-generation quality of much larger off-the-shelf alternatives and what configuration decisions get it there.
@@ -7,7 +7,7 @@ This repository contains the full experimental pipeline for Group 11's AAI3008 p
 
 ## Motivation
 
-LLM success is often attributed to scale alone. This project challenges that assumption by systematically isolating the effect of individual design decisions — tokenizer vocabulary size, context window, model depth, and hyperparameters on a controlled task: **children's story generation** using the [TinyStories dataset](https://huggingface.co/datasets/roneneldan/TinyStories) (2.1 million short stories, limited vocabulary, predictable structure).
+LLM success is often attributed to scale alone. This project challenges that assumption by systematically isolating the effect of individual design decisions: tokenizer vocabulary size, context window, model depth, and hyperparameters on a controlled task: **children's story generation** using the [TinyStories dataset](https://huggingface.co/datasets/roneneldan/TinyStories) (2.1 million short stories, limited vocabulary, predictable structure).
 
 ---
 
@@ -25,7 +25,7 @@ LLM success is often attributed to scale alone. This project challenges that ass
 
 The project is divided into four phases:
 
-### Pre-Phase — Do We Even Need Attention?
+### Pre-Phase - Do We Even Need Attention?
 Built from scratch in `PrePhase.ipynb`:
 - **Bigram LM** (character-level): val loss 2.3012 - largely incoherent output
 - **MLP LM** (character-level): val loss 1.1709 - readable words, no coherence
@@ -35,7 +35,7 @@ Built from scratch in `PrePhase.ipynb`:
 
 ---
 
-### Phase 1 — Component Studies (what makes a well-configured model?)
+### Phase 1 - Component Studies (what makes a well-configured model?)
 
 All studies hold compute constant (1 epoch, same hardware) and vary one factor at a time against a 7M parameter GPT-2 style baseline.
 
@@ -101,7 +101,7 @@ Larger models improve loss substantially, but at a steep compute cost.
 
 ---
 
-### Phase 2 — Model Comparisons (1 epoch each)
+### Phase 2 - Model Comparisons (1 epoch each)
 
 **Custom model configuration (91.6M parameters):**
 ```python
@@ -118,8 +118,8 @@ GPT2Config(
 
 | Comparison | Grammar | Creativity | Consistency | Plot | Notes |
 |------------|---------|------------|-------------|------|-------|
-| 7M Baseline vs 91.6M Custom | 7M wins all | — | — | — | Scores nearly identical; evaluator quality (LLaMA 3.1 8B) likely the limiting factor |
-| 91.6M Custom vs GPT-Neo 33M (multi-epoch, open-source) | Neo wins | Neo wins | Neo wins | Neo wins | Unfair — Neo trained for many more epochs |
+| 7M Baseline vs 91.6M Custom | 7M wins all | - | - | - | Scores nearly identical; evaluator quality (LLaMA 3.1 8B) likely the limiting factor |
+| 91.6M Custom vs GPT-Neo 33M (multi-epoch, open-source) | Neo wins | Neo wins | Neo wins | Neo wins | Unfair - Neo trained for many more epochs |
 | 91.6M Custom vs GPT-Neo 33M (1 epoch, same setting) | **Custom wins** | **Custom wins** | **Custom wins** | Neo wins | Fair comparison; custom model holds its own |
 | 91.6M Custom vs GPT-NeoX 20B (open-source) | 20B wins | 20B wins | 20B wins | **Custom wins** | After stripping mid-generation story restarts from custom output, custom model wins Consistency + Plot and leads A/B test 23–17 |
 
@@ -127,7 +127,7 @@ GPT2Config(
 
 ---
 
-### Phase 3 — Fine-Tuning vs Training from Scratch
+### Phase 3 - Fine-Tuning vs Training from Scratch
 
 Full fine-tuning and LoRA experiments comparing the custom model against **pythia-70M** (see `full_pipeline_commented.ipynb`).
 
@@ -143,9 +143,9 @@ Stories are judged using an **LLM-as-a-judge** framework, adapted from the TinyS
 - GPT-4's scores correlate with human judgement at Pearson r ≈ 0.882, often exceeding inter-human agreement.
 
 **Known limitations of LLM-as-a-judge:**
-1. **Narcissistic bias** — judge may favour outputs resembling its own family (e.g., GPT-4 rating GPT-2 outputs higher).
-2. **Verbosity bias** — longer stories are rated higher regardless of quality.
-3. **Domain limits** — TinyStories models fail general benchmarks (BLiMP, EWoK) by design; their vocabulary is intentionally restricted to ~1,500 child-level words.
+1. **Narcissistic bias** - judge may favour outputs resembling its own family (e.g., GPT-4 rating GPT-2 outputs higher).
+2. **Verbosity bias** - longer stories are rated higher regardless of quality.
+3. **Domain limits** - TinyStories models fail general benchmarks (BLiMP, EWoK) by design; their vocabulary is intentionally restricted to ~1,500 child-level words.
 
 ---
 
@@ -162,12 +162,12 @@ Open and run `PrePhase.ipynb`. It loads TinyStories, builds a character-level vo
 ### Running the Full Pipeline
 Open `full_pipeline_commented.ipynb`. It is structured as follows:
 
-1. **Data preparation** — download TinyStories, export corpus, train BPE tokenizer (vocab_size = 8000), tokenize and pack into fixed-length blocks.
-2. **Hyperparameter studies** — sweep learning rates, optimisers, and label smoothing values.
-3. **Baseline training** — 7M GPT-2 style model.
-4. **Custom model training** — 91.6M GPT-2 style model with optimal config.
-5. **Replicated GPT-Neo 33M** — trained under the same 1-epoch setting for a fair comparison.
-6. **Evaluation** — LLM-as-a-judge across all model pairs; A/B human testing for the 91.6M vs 20B comparison.
+1. **Data preparation** - download TinyStories, export corpus, train BPE tokenizer (vocab_size = 8000), tokenize and pack into fixed-length blocks.
+2. **Hyperparameter studies** - sweep learning rates, optimisers, and label smoothing values.
+3. **Baseline training** - 7M GPT-2 style model.
+4. **Custom model training** - 91.6M GPT-2 style model with optimal config.
+5. **Replicated GPT-Neo 33M** - trained under the same 1-epoch setting for a fair comparison.
+6. **Evaluation** - LLM-as-a-judge across all model pairs; A/B human testing for the 91.6M vs 20B comparison.
 
 ---
 
@@ -189,5 +189,5 @@ Open `full_pipeline_commented.ipynb`. It is structured as follows:
 
 ## Dataset
 
-[TinyStories](https://huggingface.co/datasets/roneneldan/TinyStories) — Eldan & Li, 2023. 2.1 million short English stories generated by GPT-3.5/4, designed to train and evaluate small language models.
+[TinyStories](https://huggingface.co/datasets/roneneldan/TinyStories) - Eldan & Li, 2023. 2.1 million short English stories generated by GPT-3.5/4, designed to train and evaluate small language models.
 
