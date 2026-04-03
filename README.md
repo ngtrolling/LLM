@@ -13,12 +13,39 @@ LLM success is often attributed to scale alone. This project challenges that ass
 
 ## Repository Structure
 
-- `experiment_log.json` : detailed per-run logs for hyperparameter sweeps
-- `gpt_eval_comparison_20B.json`, `gpt_eval_comparison_20B_cleaned.json`, `gpt_eval_comparison_7M_91M.json` — evaluation outputs from the LLM-as-judge pipeline
-- `tiny_corpus.txt` : training corpus (preprocessed TinyStories subset) (Due to large file size, will upload it during submission via link)
-- `tokenizer.json`, `vocab.json`, `merges.txt` — custom BPE tokenizer assets
-- Jupyter notebooks for experiments and evaluation (e.g., `full_pipeline.ipynb`, `evaluation.ipynb`, `PrePhase.ipynb`)
-- Lora folder : Lora implementation
+- `Notebooks/`
+    - `PrePhase.ipynb` - attention ablation (Bigram -> MLP -> Causal Attention)
+    - `Full_pipeline.ipynb` - end-to-end pipeline (tokenizer, training, evaluation)
+    - `Evaluation.ipynb` - interactive evaluation and analysis
+- `Experiments and Results/`
+    - `experiment_log.json` - detailed per-run logs for sweeps
+    - `gpt_eval_comparison_20B.json`, `gpt_eval_comparison_20B_cleaned.json`, `gpt_eval_comparison_7M_91M.json` - LLM-as-judge evaluation outputs
+- `Artifacts and Tokenizer/`
+    - `tokenizer.json`, `vocab.json`, `merges.txt` - custom BPE tokenizer assets
+- `scripts/`
+    - `re_eval_on_json.py` - batch re-evaluation utility for existing generation JSON files
+- `requirements.txt` - project dependencies
+- `README.md` - project overview and usage notes
+
+Recommended convention going forward:
+- Keep notebooks in `Notebooks/` for exploration and reporting.
+- Keep automation and repeatable jobs in `scripts/`.
+- Keep run outputs in `Experiments and Results/`.
+- Keep reusable model/tokenizer assets in `Artifacts and Tokenizer/` 
+
+## Google Drive Structure
+- `baseline_model.zip/`
+    - GPT2 Baseline Model Weights
+- `finalised_best_model.zip/`
+    - Custom GPT2 91.6M Model Weights
+- `gptneo_33M_replicated.zip/`
+    - GPT NEOX 33M Model Weights
+- `Lora Weights.zip/`
+    - LoRA adapters, checkpoints, configs, and tokenizer snapshots for fine-tuning experiments
+- `pythia70m_tinystories_final.zip/`
+    - Fine Tuned Pythia 70M Model Weights
+- `tiny_corpus.txt`
+    - training corpus (preprocessed TinyStories subset) 
 
 ---
 
@@ -159,10 +186,10 @@ pip install datasets transformers sentencepiece tokenizers accelerate torch
 ```
 
 ### Running the Pre-Phase Experiments
-Open and run `PrePhase.ipynb`. It loads TinyStories, builds a character-level vocabulary, and trains Bigram → MLP → Causal Attention models sequentially.
+Open and run `Notebooks/PrePhase.ipynb`. It loads TinyStories, builds a character-level vocabulary, and trains Bigram -> MLP -> Causal Attention models sequentially.
 
 ### Running the Full Pipeline
-Open `full_pipeline_commented.ipynb`. It is structured as follows:
+Open `Notebooks/Full_pipeline.ipynb`. It is structured as follows:
 
 1. **Data preparation** - download TinyStories, export corpus, train BPE tokenizer (vocab_size = 8000), tokenize and pack into fixed-length blocks.
 2. **Hyperparameter studies** - sweep learning rates, optimisers, and label smoothing values.
@@ -170,6 +197,11 @@ Open `full_pipeline_commented.ipynb`. It is structured as follows:
 4. **Custom model training** - 91.6M GPT-2 style model with optimal config.
 5. **Replicated GPT-Neo 33M** - trained under the same 1-epoch setting for a fair comparison.
 6. **Evaluation** - LLM-as-a-judge across all model pairs; A/B human testing for the 91.6M vs 20B comparison.
+
+### Re-evaluating Existing JSON Results
+Run the batch script in `scripts/re_eval_on_json.py` to re-score existing story outputs with an Ollama judge model.
+
+Before running, set `INPUT_JSON`, `OUTPUT_JSON`, `JUDGE_MODEL`, and `MODEL_KEYS` in the script.
 
 ---
 
