@@ -1,6 +1,6 @@
 # LLM — TinyStories experiments
 
-This branch contains experiments for training and evaluating small GPT-style language models on the TinyStories dataset. The goal of the experiments was to identify robust baseline hyperparameters for a small (≈7M) GPT-2-style model trained on short children's stories.
+This repository contains the full experimental pipeline for our project. The central question is whether a **smaller, carefully designed model** can match the story-generation quality of much larger off-the-shelf alternatives and what configuration decisions get it there.
 
 ## Key artifacts
 
