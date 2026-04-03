@@ -161,7 +161,9 @@ Full fine-tuning and LoRA experiments comparing the custom model against **pythi
 Stories are judged using an **LLM-as-a-judge** framework, adapted from the TinyStories paper:
 
 - GPT-4 / LLaMA 3.1 8B is prompted to act as a teacher grading a student's story completion.
-- 50 story seeds × 10 completions = 500 evaluated stories per model.
+- Evaluation prompts were loaded from a Hugging Face evaluation YAML file.
+- Although the target was 50 story seeds, only 44 were available in the YAML file.
+- Therefore, 44 story seeds × 10 completions = 440 evaluated stories per model.
 - Four metrics scored 1–10: **Grammar, Creativity, Consistency, Plot**.
 - GPT-4's scores correlate with human judgement at Pearson r ≈ 0.882, often exceeding inter-human agreement.
 
