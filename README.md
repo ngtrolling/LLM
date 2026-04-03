@@ -16,7 +16,7 @@ LLM success is often attributed to scale alone. This project challenges that ass
 - `experiment_log.json` : detailed per-run logs for hyperparameter sweeps
 - `gpt_eval_comparison_20B.json`, `gpt_eval_comparison_20B_cleaned.json`, `gpt_eval_comparison_7M_91M.json` — evaluation outputs from the LLM-as-judge pipeline
 - `tiny_corpus.txt` : training corpus (preprocessed TinyStories subset) (Due to large file size, will upload it during submission via link)
-- `tokenizer.json`, `vocab.json` — custom BPE tokenizer assets
+- `tokenizer.json`, `vocab.json`, `merges.txt` — custom BPE tokenizer assets
 - Jupyter notebooks for experiments and evaluation (e.g., `full_pipeline.ipynb`, `evaluation.ipynb`, `PrePhase.ipynb`)
 - Lora folder : Lora implementation
 
