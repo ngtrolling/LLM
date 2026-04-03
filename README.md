@@ -1,7 +1,7 @@
 # AAI3008 - Large Language Models: Group 11
 ## A Dive into Large Language Model Configurations & Optimization Strategies
 
-This repository contains the full experimental pipeline for Group 11's AAI3008 project. The central question is whether a **smaller, carefully designed model** can match the story-generation quality of much larger off-the-shelf alternatives and what configuration decisions get it there.
+This repository contains the full experimental pipeline for our project. The central question is whether a **smaller, carefully designed model** can match the story-generation quality of much larger off-the-shelf alternatives and what configuration decisions get it there.
 
 ---
 
