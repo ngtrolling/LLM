@@ -4,11 +4,12 @@ This branch contains experiments for training and evaluating small GPT-style lan
 
 ## Key artifacts
 
-- `experiment_log.json` — detailed per-run logs for hyperparameter sweeps
+- `experiment_log.json` : detailed per-run logs for hyperparameter sweeps
 - `gpt_eval_comparison_20B.json`, `gpt_eval_comparison_20B_cleaned.json`, `gpt_eval_comparison_7M_91M.json` — evaluation outputs from the LLM-as-judge pipeline
-- `tiny_corpus.txt` — training corpus (preprocessed TinyStories subset)
+- `tiny_corpus.txt` : training corpus (preprocessed TinyStories subset)
 - `tokenizer.json`, `vocab.json`, `merges.txt` — custom BPE tokenizer assets
 - Jupyter notebooks for experiments and evaluation (e.g., `full_pipeline.ipynb`, `evaluation.ipynb`, `base_tiny_stories.ipynb`)
+- lora : lora implemenration
 
 ---
 
@@ -23,7 +24,7 @@ This branch contains experiments for training and evaluating small GPT-style lan
 
 Performance was primarily measured using validation cross-entropy loss and its exponential (perplexity). Lower perplexity indicates the model assigns higher probability to the correct next token on average.
 
-## Hyperparameter studies — summary of findings
+## Hyperparameter studies : summary of findings
 
 ### Learning rate study
 
@@ -91,5 +92,9 @@ This prompt emphasizes the separator to prevent the judge from confusing prompt 
 - Domain limits: TinyStories-trained models are domain-specific and struggle on broad linguistic benchmarks (e.g., BLiMP) due to limited vocabulary and narrow world knowledge.
 
 These caveats should be considered when interpreting absolute metric numbers and when transferring the baseline to very different datasets or larger architectures.
+
+## Lora Implementation
+
+- Lora did not result in favourable results due to the short training run. Increasing the epoch, did drop the validation loss but it was not enough to generate coherent stories. Therefore, next steps would be to adjusting the hyperparameters of Lora which is a critical aspect of its success.
 
 ---
