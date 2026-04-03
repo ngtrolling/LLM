@@ -27,12 +27,6 @@ LLM success is often attributed to scale alone. This project challenges that ass
 - `requirements.txt` - project dependencies
 - `README.md` - project overview and usage notes
 
-Recommended convention going forward:
-- Keep notebooks in `Notebooks/` for exploration and reporting.
-- Keep automation and repeatable jobs in `scripts/`.
-- Keep run outputs in `Experiments and Results/`.
-- Keep reusable model/tokenizer assets in `Artifacts and Tokenizer/` 
-
 ## Google Drive Structure
 - `baseline_model.zip/`
     - GPT2 Baseline Model Weights
@@ -54,7 +48,7 @@ Recommended convention going forward:
 The project is divided into four phases:
 
 ### Pre-Phase - Do We Even Need Attention?
-Built from scratch in `PrePhase.ipynb`:
+Built from scratch in `Notebooks/PrePhase.ipynb`:
 - **Bigram LM** (character-level): val loss 2.3012 - largely incoherent output
 - **MLP LM** (character-level): val loss 1.1709 - readable words, no coherence
 - **Causal Attention model**: val loss 1.0752 - coherent sentences, clear winner
@@ -182,7 +176,7 @@ Stories are judged using an **LLM-as-a-judge** framework, adapted from the TinyS
 
 ### Environment Setup
 ```bash
-pip install datasets transformers sentencepiece tokenizers accelerate torch
+pip install -r requirements.txt
 ```
 
 ### Running the Pre-Phase Experiments
